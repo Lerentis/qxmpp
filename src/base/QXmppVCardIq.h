@@ -28,7 +28,7 @@
 #include "QXmppIq.h"
 #include <QDate>
 #include <QMap>
-#include <QDomElement>
+#include <QtXml/QDomElement>
 
 class QXmppVCardAddressPrivate;
 class QXmppVCardEmailPrivate;

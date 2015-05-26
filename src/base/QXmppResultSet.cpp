@@ -26,7 +26,7 @@
 #include "QXmppResultSet.h"
 #include "QXmppUtils.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QDebug>
 
 QXmppResultSetQuery::QXmppResultSetQuery()

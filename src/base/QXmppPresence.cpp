@@ -25,7 +25,7 @@
 #include "QXmppPresence.h"
 #include "QXmppUtils.h"
 #include <QtDebug>
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QXmlStreamWriter>
 #include "QXmppConstants.h"
 
@@ -184,7 +184,7 @@ void QXmppPresence::setType(QXmppPresence::Type type)
     d->type = type;
 }
 
-/// \cond
+/// \cond
 void QXmppPresence::parse(const QDomElement &element)
 {
     QXmppStanza::parse(element);

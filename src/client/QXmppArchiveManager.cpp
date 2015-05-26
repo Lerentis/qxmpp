@@ -21,7 +21,7 @@
  *
  */
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 
 #include "QXmppArchiveIq.h"
 #include "QXmppArchiveManager.h"

@@ -21,7 +21,7 @@
  *
  */
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 
 #include "QXmppByteStreamIq.h"
 #include "QXmppConstants.h"

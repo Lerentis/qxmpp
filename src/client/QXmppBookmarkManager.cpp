@@ -21,7 +21,7 @@
  *
  */
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 
 #include "QXmppBookmarkManager.h"
 #include "QXmppBookmarkSet.h"

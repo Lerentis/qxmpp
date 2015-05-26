@@ -24,7 +24,7 @@
 
 #include "QXmppEntityTimeIq.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 
 #include "QXmppConstants.h"
 #include "QXmppUtils.h"

@@ -22,7 +22,7 @@
  */
 
 #include <QDebug>
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QSize>
 #include <QStringList>
 

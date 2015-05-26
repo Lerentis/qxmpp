@@ -25,7 +25,7 @@
 #include <cstdlib>
 
 #include <QCryptographicHash>
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QStringList>
 #if QT_VERSION >= 0x050000
 #include <QUrlQuery>

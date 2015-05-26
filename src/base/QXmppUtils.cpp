@@ -28,7 +28,7 @@
 #include <QCryptographicHash>
 #include <QDateTime>
 #include <QDebug>
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QRegExp>
 #include <QString>
 #include <QStringList>

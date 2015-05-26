@@ -24,7 +24,7 @@
 
 #include "QXmppEntityTimeManager.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QDateTime>
 
 #include "QXmppClient.h"

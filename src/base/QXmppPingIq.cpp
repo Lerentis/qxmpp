@@ -25,7 +25,7 @@
 #include "QXmppPingIq.h"
 #include "QXmppUtils.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 
 QXmppPingIq::QXmppPingIq() : QXmppIq(QXmppIq::Get)
 {

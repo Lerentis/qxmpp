@@ -51,7 +51,7 @@
 
 #include <QBuffer>
 #include <QCoreApplication>
-#include <QDomDocument>
+#include <QtXml/QDomDocument>
 #include <QStringList>
 #include <QRegExp>
 #include <QHostAddress>

@@ -22,7 +22,7 @@
  *
  */
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QXmlStreamWriter>
 
 #include "QXmppConstants.h"

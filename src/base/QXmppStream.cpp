@@ -30,7 +30,7 @@
 #include "QXmppUtils.h"
 
 #include <QBuffer>
-#include <QDomDocument>
+#include <QtXml/QDomElement>
 #include <QHostAddress>
 #include <QRegExp>
 #include <QSslSocket>

@@ -22,7 +22,7 @@
  *
  */
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QMap>
 #include <QVariant>
 #include <QDateTime>

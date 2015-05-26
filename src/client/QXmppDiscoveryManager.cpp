@@ -23,7 +23,7 @@
 
 #include "QXmppDiscoveryManager.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QCoreApplication>
 
 #include "QXmppClient.h"

@@ -24,7 +24,7 @@
 #include "QXmppElement.h"
 #include "QXmppUtils.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QTextStream>
 
 class QXmppElementPrivate

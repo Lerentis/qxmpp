@@ -25,7 +25,7 @@
 #include "QXmppUtils.h"
 #include "QXmppIq.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QXmlStreamWriter>
 
 static const char* iq_types[] = {

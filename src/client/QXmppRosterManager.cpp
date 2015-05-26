@@ -22,7 +22,7 @@
  *
  */
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 
 #include "QXmppClient.h"
 #include "QXmppPresence.h"

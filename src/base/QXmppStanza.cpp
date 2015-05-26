@@ -28,7 +28,7 @@
 #include "QXmppUtils.h"
 #include "QXmppConstants.h"
 
-#include <QDomElement>
+#include <QtXml/QDomElement>
 #include <QXmlStreamWriter>
 
 uint QXmppStanza::s_uniqeIdNo = 0;
@@ -137,7 +137,7 @@ bool QXmppExtendedAddress::isValid() const
     return !d->type.isEmpty() && !d->jid.isEmpty();
 }
 
-/// \cond
+/// \cond
 void QXmppExtendedAddress::parse(const QDomElement &element)
 {
     d->delivered = element.attribute("delivered") == "true";
@@ -157,7 +157,7 @@ void QXmppExtendedAddress::toXml(QXmlStreamWriter *xmlWriter) const
     xmlWriter->writeAttribute("type", d->type);
     xmlWriter->writeEndElement();
 }
-/// \endcond
+/// \endcond
 
 QXmppStanza::Error::Error():
     m_code(0),
@@ -416,7 +416,7 @@ void QXmppStanza::Error::toXml( QXmlStreamWriter *writer ) const
 
     writer->writeEndElement();
 }
-/// \endcond
+/// \endcond
 
 class QXmppStanzaPrivate : public QSharedData
 {
