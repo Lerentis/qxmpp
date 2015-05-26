@@ -39,4 +39,8 @@ SOURCES += \
     client/QXmppRpcManager.cpp \
     client/QXmppTransferManager.cpp \
     client/QXmppVCardManager.cpp \
-    client/QXmppVersionManager.cpp
+    client/QXmppVersionManager.cpp \
+    $$PWD/qxmppjabbersearch.cpp
+
+HEADERS += \
+    $$PWD/qxmppjabbersearch.h
